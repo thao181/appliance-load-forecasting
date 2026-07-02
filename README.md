@@ -6,6 +6,9 @@ This project contains a Jupyter Notebook for forecasting appliance electricity l
 
 The notebook focuses on hourly appliance load forecasting for a fridge dataset. It compares standalone statistical models with hybrid approaches that combine linear forecasts and LSTM-based residual correction.
 
+## Data Source
+
+The data used in this project is taken from the UK-DALE dataset, specifically House 1 appliance electricity data.
 ## Models
 
 - Single ARIMA with AIC, BIC, and MML model selection
